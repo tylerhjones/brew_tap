@@ -73,6 +73,7 @@ class Nginx < Formula
       --with-stream_ssl_preread_module
       # Added difference from core tap
       --with-ngx_http_limit_req_module
+      --with-http_limit_req_module
     ]
 
     if build.with? "passenger"
